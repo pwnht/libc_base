@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="jumbotron">
+	<div class="container">
+		<h1>top address</h1>
+	</div>
+</div>
+<div class="container">
+		<div id="scoreboard" class="row">
+			<div class="col-md-12">
+				<table class="table table-striped">
+					<thead>
+						<tr>
+							<td scope="col" width="10px"><b>Place</b></td>
+							<td scope="col"><b>address</b></td>
+							<td scope="col"><b>count number</b></td>
+						</tr>
+					</thead>
+					<tbody>
+					{% for addr in address %}
+						<tr>
+							<th scope="row" class="text-center">{{ loop.index }}</th>
+							<td>{{ addr }}</td>
+							<td>{{ count_number[loop.index0] }}</td>
+						</tr>
+					{% endfor %}
+					</tbody>
+				</table>
+			</div>
+		</div>
+</div>
+{% endblock %}

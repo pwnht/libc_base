@@ -1,0 +1,22 @@
+{
+    "data_name":[
+        "./json/data_base_0.json",
+        "./json/data_base_1.json",
+        "./json/data_base_2.json",
+        "./json/data_base_3.json",
+        "./json/data_base_4.json",
+        "./json/data_base_5.json",
+        "./json/data_base_6.json",
+        "./json/data_base_7.json",
+        "./json/data_base_8.json",
+        "./json/data_base_9.json",
+        "./json/data_base_10.json",
+        "./json/data_base_11.json",
+        "./json/data_base_12.json",
+        "./json/data_base_13.json",
+        "./json/data_base_14.json",
+        "./json/data_base_15.json"
+    ],
+    "init":1,
+    "top_name":"./json/top.json"
+}
